@@ -43,7 +43,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 body{
-    background-image: url("/CSS/background2.jpg");
+    background-image: url("/bg.JPG");
     overflow-x: hidden;
 }
 
