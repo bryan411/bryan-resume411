@@ -44,6 +44,7 @@ html::-webkit-scrollbar-thumb{
 
 body{
     background-image: url("background2.jpg");
+    background-repeat: repeat;
     overflow-x: hidden;
 }
 
