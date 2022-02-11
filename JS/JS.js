@@ -94,6 +94,6 @@ Circlle('.round');
 $(document).ready(function() {
     $('#btn-resume').click(function(e) {
         e.preventDefault();
-        window.location.href = "ChunKit_Keung.doc";
+        window.location.href = 'ChunKit_Keung.doc';
     });
 });
