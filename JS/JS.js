@@ -97,3 +97,19 @@ $(document).ready(function() {
         window.location.href = 'ChunKit_Keung.doc';
     });
 });
+
+
+$(document).ready(function() {
+    $('#btn-resume1').click(function(e) {
+        e.preventDefault();
+        window.location.href = '履歴書.xlsx';
+    });
+});
+
+
+$(document).ready(function() {
+    $('#btn-resume２').click(function(e) {
+        e.preventDefault();
+        window.location.href = '職務経験書.doc';
+    });
+});
