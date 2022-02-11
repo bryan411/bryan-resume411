@@ -26,33 +26,7 @@ $(document).ready(function() {
 });
 
 
-/* Click to show Working Experience
-btn.addEventListener('click', (e)=>{
-    text.classList.toggle('show-more');
-    if(btn.innerHTML === 'Details')
-    {
-        btn.innerHTML = 'Less';
-    }
-    else
-    {
-        btn.innerHTML = 'Details';
-    }   
-}) 
 
-
-btn2.addEventListener('click', (e)=>{
-    text2.classList.toggle('show-more');
-    if(btn.innerHTML === 'Details')
-    {
-        btn.innerHTML = 'Less';
-    }
-    else
-    {
-        btn.innerHTML = 'Details';
-    }   
-}) 
-
-*/
 
 /* Skills Bar*/
     function showProgress(){
@@ -113,3 +87,13 @@ function Circlle(el){
 
 
 Circlle('.round');
+
+
+
+
+$(document).ready(function() {
+    $('#btn-resume').click(function(e) {
+        e.preventDefault();
+        window.location.href = "ChunKit_Keung.doc";
+    });
+});
