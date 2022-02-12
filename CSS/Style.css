@@ -900,14 +900,6 @@ header.sticky{
 }
 
 
-/*.icon-container{
-    display: flex;
-    gap:1.5rem;
-    justify-content: space-around;
-    padding-bottom:2rem;
-
-}*/
-
 .personal_contact{
     padding-left: 7rem;
     display:grid;
@@ -923,6 +915,7 @@ header.sticky{
     box-shadow: 10px 10px 10px rgba(40, 4, 170, 0.788);
     border-radius:0.5rem;
     width:100%;
+    height:90%;
 }
 
 
@@ -941,11 +934,22 @@ header.sticky{
     padding:.5rem 0;
 }
 
-.icon-container .icons p{
-    font-size: 1.7rem;    
+
+
+
+
+#btn-resume1{
+    font-size: 1.5rem;
+}
+
+#btn-resume２{
+    font-size: 1.5rem;
 }
 
 
+#btn-resume{
+    font-size: 1.5rem;
+}
 
 .Contact .map{
     flex:5 5 25rem;
