@@ -162,7 +162,7 @@ header.sticky{
 }
 
 
-@media screen and (max-width:960px ) {
+@media screen and (max-width:1200px ) {
     .navbar-container{
         display: flex;
         justify-content: space-between;
