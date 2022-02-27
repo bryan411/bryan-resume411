@@ -162,7 +162,8 @@ header.sticky{
 }
 
 
-@media screen and (max-width:1200px ) {
+@media screen and (max-width:768px ) {
+
     .navbar-container{
         display: flex;
         justify-content: space-between;
@@ -172,6 +173,16 @@ header.sticky{
         max-width:1300px;
         padding:0;
 
+    }
+
+    .PV{
+        display: block;
+        padding-top: 2.5rem;
+        padding-left: 19rem;
+        font-size: 3rem;
+        line-height: 2;
+        text-align: center;
+        width: 115rem;
     }
 
     .nav_menu{
@@ -192,7 +203,7 @@ header.sticky{
         opacity: 1;
         transition: all .5s ease;
         z-index: 99;
-        height:60vh;
+        height:80vh;
         font-size: 1.6rem;
     }
     
@@ -281,11 +292,10 @@ header.sticky{
 
 
 .PV{
-    padding-top: 2.5rem;
-    padding-left: 19rem;
+    display:block;
+    justify-content: center;
     font-size: 2rem;
     line-height: 2;
-    text-align: center;
     width: 115rem;
 }
 
