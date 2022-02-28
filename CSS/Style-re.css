@@ -1,0 +1,75 @@
+@media  screen and (max-width:1200px) {
+    
+    .PV{
+        font-size: 3rem;
+        width: 95%;
+        text-align: center;    
+    }
+
+    .heading{
+        font-size: 5rem;
+    }
+
+    .company{
+        font-size: 5rem;
+        display: flex;  
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .company .period{
+        font-size: 3rem;
+        border-radius: 3rem;
+        margin-right: 50rem;
+        width:100%;
+    }
+
+    .company .name{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 5rem;
+    }
+
+    .company .name p{
+        display: flex;  
+        flex-wrap: wrap;
+        margin-top: 10px;
+        border-radius:10px;
+        text-align: center;
+    }
+
+
+
+
+    .work-wrapper{
+        display:flex;
+        flex-wrap: wrap;
+        text-align: center;
+    
+    }
+
+
+
+    .ccc-card .text{
+        font-size: 3rem;
+        margin:1.8rem 0;
+    }
+    
+
+    .circlebar{
+        width:100%;
+    }
+
+    .skillsbar{
+        width:100%;
+    }
+
+    .skillsbar .container .p{
+        font-size: 8rem;
+    }
+
+    .Skills{
+        display: flex;
+        flex-wrap:wrap;
+        }
+}

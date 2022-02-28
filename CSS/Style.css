@@ -162,9 +162,20 @@ header.sticky{
 }
 
 
-@media screen and (max-width:768px ) {
+@media screen and (max-width:1200px) {
+
+
+
+    
+
+    .ccc-card .text{
+        font-size: 3rem;
+        margin:1.8rem 0;
+    }
+    
 
     .navbar-container{
+        
         display: flex;
         justify-content: space-between;
         height:80px;
@@ -175,15 +186,7 @@ header.sticky{
 
     }
 
-    .PV{
-        display: block;
-        padding-top: 2.5rem;
-        padding-left: 19rem;
-        font-size: 3rem;
-        line-height: 2;
-        text-align: center;
-        width: 115rem;
-    }
+
 
     .nav_menu{
         display:grid;
@@ -225,6 +228,7 @@ header.sticky{
     }
 
     .nav_link{
+        font-size: 5rem;
         text-align: center;
         padding: 2rem;
         width:100%;
@@ -232,6 +236,7 @@ header.sticky{
     }
 
     .page{
+        font-size: 5rem;
         text-align: center;
         padding: 2rem;
         width:100%;
@@ -292,7 +297,6 @@ header.sticky{
 
 
 .PV{
-    display:block;
     justify-content: center;
     font-size: 2rem;
     line-height: 2;
@@ -419,7 +423,7 @@ header.sticky{
 }
 
 
-.period{
+.company .period{
     font-size: 2.3rem;
     background:rgb(226, 224, 255);
     border-radius: 3rem;
