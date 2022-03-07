@@ -1,4 +1,6 @@
 @media  screen and (max-width:1200px) {
+
+
     
     .PV{
         font-size: 3rem;
@@ -7,8 +9,12 @@
     }
 
     .heading{
-        font-size: 5rem;
+        font-size: 8rem;
     }
+
+   .home h3{
+       margin-bottom:2rem;
+   }
 
     .company{
         font-size: 5rem;
@@ -19,11 +25,14 @@
 
 
     .company .period{
-        font-size: 3rem;
+        font-size: 4rem;
+        background:rgb(226, 224, 255);
         border-radius: 3rem;
-        margin-right: 50rem;
-        width:100%;
+        padding:.5rem 2.5rem;
+        margin-left: 7rem;
+        height:50%;
     }
+    
 
     .company .name{
         font-family: 'Bebas Neue', cursive;
@@ -72,4 +81,125 @@
         display: flex;
         flex-wrap:wrap;
         }
+
+
+
+        .refresh-btn{
+         display: flex;
+         justify-content: center;
+        } 
+
+
+    .hello{
+        margin-bottom: 3rem;
+        font-size: 4.5rem;
+    }
+
+
+    .heading::after{
+        content: "";
+        position:absolute;
+        width: 200px;
+        height:5px;
+        border-radius: 3px;
+        background-color: rgb(226, 224, 255);
+        border-top:6rem;
+        bottom:0;
+        left:50%;
+        transform: translateX(-50%);
+
+    }
+
+
+    .title{
+        position:relative;
+        display:block;
+        padding-bottom: 3rem;
+        line-height:1rem;
+        font-size: 6rem;
+        margin-bottom:1.2rem;
+    }
+
+    .work-card p{
+        text-align: center;
+        font-size: 2rem;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        padding-top:25px;
+    }
+
+    .card-content .title{
+        font-size: 5rem;
+    }
+
+
+
+.box-container{
+    display:grid;
+    margin-top:5rem;
+}
+
+.box-city h3{
+    font-size: 3.5rem;
+}
+
+.box-poly h3{
+    font-size: 3.5rem;
+}
+
+.box-city p{
+    font-size: 3rem;
+}
+
+.box-poly p{
+    font-size: 3rem;
+}
+
+.box-1{
+    display: flex;
+    justify-content:center;
+    position:relative;
+    width:70rem;
+    margin:4rem 1rem;
+    border-left:.3rem solid rgba(40, 4, 170, 0.788);
+    padding-left: 4rem;
+    padding-top: 0rem;
+}
+
+.box-2{
+    display: flex;
+    justify-content:center;
+    position:relative;
+    width:70rem;
+    margin:4rem 1rem;
+    border-left:.3rem solid rgba(40, 4, 170, 0.788);
+    padding-left: 4rem;
+    padding-top: 0rem;
+}
+
+.box-1 .logo{
+    position:absolute;
+    left:20rem;
+}
+
+.box-2 .logo{
+    position:absolute;
+    left:20rem;
+}
+
+.box-poly{
+    margin-right:20rem;
+}
+
+.container p{
+    margin-top:20px;
+    font-size: 2rem;
+}
+
+.circle-btn{
+    height:5rem;
+    font-size: 4rem;
+    border-radius: 3rem;
+    border-bottom:3rem;
+}
+
 }
