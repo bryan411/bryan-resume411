@@ -1,11 +1,12 @@
 @media  screen and (max-width:1200px) {
 
-
     
     .PV{
         font-size: 3rem;
-        width: 95%;
+        width: 80%;
         text-align: center;    
+        display: flex;
+         justify-content: center;
     }
 
     .heading{

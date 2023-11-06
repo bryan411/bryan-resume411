@@ -297,10 +297,10 @@ header.sticky{
 
 
 .PV{
-    justify-content: center;
     font-size: 2rem;
     line-height: 2;
     width: 115rem;
+    padding-left: 50rem;
 }
 
 .Employment{
@@ -676,11 +676,24 @@ header.sticky{
     width:100%;
 }
 
-
+.card-content .icons{
+    margin-left: 13rem;
+}
 
 .card-wrap{
     margin:1.7rem .8rem;
 }
+
+.card-wrap .icons{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    background-color: black;
+    border-radius: 50%;
+    color: #00ffd5;
+}
+
 
 .ccc-card .text{
     font-size: 2rem;
@@ -820,7 +833,7 @@ header.sticky{
 
 .Skills{
     display: flex;
-    justify-content:start;
+    justify-content:center;
 }
 
 
