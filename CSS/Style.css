@@ -280,6 +280,8 @@ header.sticky{
     padding-top: 23rem;
     text-align: center;
     padding-bottom: 20rem;
+  
+
 }
 
 .home h3{
@@ -297,10 +299,10 @@ header.sticky{
 
 
 .PV{
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 2;
-    width: 115rem;
-    padding-left: 50rem;
+    width: 900px;
+    margin:auto;
 }
 
 .Employment{
