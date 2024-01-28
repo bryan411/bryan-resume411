@@ -679,7 +679,7 @@ header.sticky{
 }
 
 .card-content .icons{
-    margin-left: 13rem;
+    margin-left: 3rem;
 }
 
 .card-wrap{
@@ -1068,5 +1068,4 @@ header.sticky{
 .card-wrap .icons-pattern{
     display: flex;
     justify-content: space-evenly;
-
 }
