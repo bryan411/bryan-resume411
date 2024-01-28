@@ -714,7 +714,7 @@ header.sticky{
     margin-top:5rem;
 }
 
- 
+
 
 .box-1 span{
     font-size: 1.3rem;
@@ -1062,4 +1062,11 @@ header.sticky{
 
 .footer span{
     color:#00ffd5;
+}
+
+
+
+.icons-pattern{
+    display: flex;
+    justify-content: center;
 }
