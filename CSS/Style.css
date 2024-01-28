@@ -1065,8 +1065,7 @@ header.sticky{
 }
 
 
-
-.icons-pattern{
+.card-wrap .icons-pattern{
     display: flex;
     justify-content: center;
 }
